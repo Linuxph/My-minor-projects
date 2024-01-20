@@ -1,0 +1,60 @@
+body{
+    width: 99%;
+    height: 100%;
+}
+
+.outer-div{
+    margin-top: 50vh;
+    border: 2px solid black;
+    border-radius: 20px;
+    height: 25px;
+    width: 90%;
+    position: relative;
+    left: 4%;
+    z-index: 999999;
+
+}
+.inner-div{
+    text-align: center;
+    color: white;
+    border-radius: 20px;
+    background-color: rgb(5, 182, 5);
+    height: inherit;
+    z-index: 99;
+    
+
+    animation-name: motion;
+    animation-timing-function: ease-in;
+    animation-duration: 5s;
+    animation-delay: 1s;
+}
+
+@keyframes motion {
+    from{
+        width: 0%;
+    }
+    to{
+        width: 100%;
+    }
+}
+
+.btn{
+    display: none;
+    padding-top: 48vh;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.btn button{
+    height: 9vh;
+    width: 20vh;
+    border-radius: 57%;
+    cursor: pointer;
+}
+
+
+.btn button:hover{
+    color: white;
+    font-weight: 700;
+    background-color: rgb(47, 226, 226);
+}

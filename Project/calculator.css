@@ -1,0 +1,42 @@
+body{
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+}
+
+#calc{
+    border: 2px solid;
+    border-color: rgb(197, 197, 197);
+    width: 50vh;
+    height: 95.5vh;
+    box-shadow: 10px 5px 5px rgb(0, 0, 0);
+}
+
+.container-butn{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#ip{
+    margin: 3.7vh;
+    height: 8vh;
+    width: 42vh;
+}
+
+.butn{
+    margin: 1vh;
+    width: 11vh;
+    height: 11vh;
+}
+
+@media (max-width: 600px) {
+    #calc{
+        margin: 1vh;
+        margin-top: 3vh;
+        width: 48vh;
+    }
+    #ip{
+        width: 31vh;
+    }
+}
