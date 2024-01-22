@@ -30,6 +30,14 @@ body{
     height: 11vh;
 }
 
+.container-butn button{
+    height: 4.3rem;
+    width: 4.3rem;
+    border-radius: 50%;
+    font-weight: 700;
+    font-size: 4vw;
+}
+
 @media (max-width: 600px) {
     #calc{
         margin: 0vh;
